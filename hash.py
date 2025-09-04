@@ -196,6 +196,14 @@ if __name__ == "__main__":
     texto_extraido_teste = extrair_texto_pdf(caminho_pdf_teste)
     print(f"{VERMELHO}Texto Extraído.: {RESET}({texto_extraido_teste})")
     texto_teste = normalizar_texto(texto_extraido_teste)
+    print(f"{VERMELHO}Texto normalizado.: {RESET}({texto_teste})")
+
+    # Captura a quantidade de horas
+    horas = extrair_horas_do_texto(texto_extraido)
+    if horas:
+        print(f"{VERMELHO}Quantidade de horas encontrada:{RESET}", horas)
+    else:
+        print("Nenhuma quantidade de horas encontrada")
 
     duplicado, motivo = verificar_duplicidade(texto_teste, base_documentos)
 
@@ -204,4 +212,4 @@ if __name__ == "__main__":
 
     # Convertendo para string JSON
     json_string = json.dumps(retorno, ensure_ascii=False)
-    print(f"{VERMELHO}{json_string}")
+    print(f"{VERDE}{json_string}")
