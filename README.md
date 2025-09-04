@@ -5,7 +5,7 @@ Nesse projeto será possível fazer a análise de um documento PDF.
 ## Execução
 
 1. Faça download dos arquivos e adicione uma lista de documentos PDF
-2. Instale algumas extensões para execução
+2. Instale algumas extensões para execução do Python
    - hashlib
    - re
    - PdfReader
