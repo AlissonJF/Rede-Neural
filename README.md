@@ -1,6 +1,10 @@
 # Rede Neural
 
-Nesse projeto será possível fazer a análise de um documento PDF.
+### Nesse projeto será possível fazer a análise de um Documento PDF.
+
+A análise atualmente se encontra apenas com automações, a adaptação para leitura de documentos com Rede Neural será implementada logo após uma resposta positiva sobre análises de uma quantidade considerável de alimentação de dados de Certificados.
+
+Em primeira instância, a leitura e análise será realizada apenas com PDF de Certificados (devido ao treinamento através desse tipo de dados). Acredito que funcione para outros tipos de Documentos também, mas como não é o foco principal do Projeto (por hora), recomendo o uso para análises relacionadas.
 
 ## Execução
 
