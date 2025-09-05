@@ -38,4 +38,4 @@ Ao executar o projeto, o mesmo listará:
 
 ## Licença
 
-  MIT License
+  GNU GENERAL PUBLIC LICENSE
