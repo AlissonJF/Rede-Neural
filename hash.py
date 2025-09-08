@@ -8,11 +8,6 @@ import fitz # PyMuPDF
 import cv2
 import numpy as np
 from pyzbar.pyzbar import decode
-import tensorflow as tf
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from keras_preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
 
 VERMELHO = "\033[31m"
 VERDE = "\033[32m"
